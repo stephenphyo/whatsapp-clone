@@ -1,0 +1,94 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    flex: 0.30;
+    border-right: 2px solid blueviolet;
+}
+
+.sidebar__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.sidebar__header__right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 5vw;
+}
+
+.sidebar__search {
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    height: 39px;
+    padding: 10px;
+}
+
+.sidebar__search__container {
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+    height: 35px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 0 10px 0 10px;
+}
+
+.sidebar__search__container > input {
+    flex: 1;
+    border: none;
+    outline-style: none;
+    margin-left: 10px;
+    background-color: lightgray;
+    font-family: century;
+    font-size: 14px;
+}
+
+.sidebar__chats {
+    flex: 100%;
+    background-color: white;
+    overflow-y: scroll;
+}
+
+.sidebar__addRoom {
+    display: grid;
+    place-items: center;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.sidebar__addRoom > button {
+    color: white;
+    width: 90%;
+    border: 0;
+    padding: 10px;
+    background:#AFB42B;
+    border-radius: 30px;
+    font-size: 16px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.sidebar__addRoom > button:hover {
+    background: #AF8912;
+}
+
+.sidebar__chats::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  .sidebar__chats::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  .sidebar__chats::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  .sidebar__chats::-webkit-scrollbar-thumb:hover {
+    background: lightskyblue;
+  }

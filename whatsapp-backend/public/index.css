@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('./img/bg01.jpg');
+}
+
+.main {
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main > p {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 80px;
+    color: #5f27cd;
+}
+
+
+
